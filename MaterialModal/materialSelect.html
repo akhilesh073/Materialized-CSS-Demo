@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script src="../js/jquery.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+    <style type="text/css">
+    .verticalLine {
+        border-left: thin solid #c3c3c3;
+    }
+    </style>
+<body>
+	
+<div class="container">
+	<div class="row">
+		 <div class="input-field col s12">
+    <select>
+      <option value=""  selected disabled>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <label>Materialize Select</label>
+  </div>
+
+ 
+
+  
+            
+<script>
+	 $(document).ready(function() {
+	 	//alert(1);
+    $('select').material_select();
+  });
+</script>
+
+</body>
+</html>
